@@ -1,0 +1,27 @@
+id,soil_moisture,temperature,humidity,recommendation,timestamp
+26,71.0,23.9,58.1,Soil moisture is adequate under this simple rule.,2026-11-09T20:48:31+00:00
+25,15.2,20.1,69.7,Low soil moisture: assess crop needs and irrigation.,2026-11-08T22:40:24+00:00
+24,37.3,21.8,68.7,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:24+00:00
+23,65.5,29.7,62.2,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:23+00:00
+22,50.2,33.9,79.0,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:23+00:00
+21,48.3,20.0,82.0,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:23+00:00
+20,63.1,25.6,58.2,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:23+00:00
+19,43.4,34.3,43.4,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:23+00:00
+18,31.7,31.7,41.2,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:22+00:00
+17,21.8,29.5,52.1,Low soil moisture: assess crop needs and irrigation.,2026-11-08T22:40:22+00:00
+16,32.7,28.1,54.4,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:22+00:00
+15,35.7,25.0,77.3,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:22+00:00
+14,35.3,34.1,59.0,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:22+00:00
+13,26.2,29.0,62.1,Low soil moisture: assess crop needs and irrigation.,2026-11-08T22:40:21+00:00
+12,70.7,28.8,64.3,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:20+00:00
+11,64.4,35.3,38.0,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:20+00:00
+10,41.1,24.5,79.2,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:20+00:00
+9,16.9,27.1,31.3,Low soil moisture: assess crop needs and irrigation.,2026-11-08T22:40:20+00:00
+8,66.1,20.4,33.2,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:19+00:00
+7,74.6,23.2,41.1,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:19+00:00
+6,51.5,33.2,33.0,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:19+00:00
+5,47.8,19.7,41.2,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:19+00:00
+4,73.2,29.2,31.2,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:19+00:00
+3,53.7,31.1,57.4,Soil moisture is adequate under this simple rule.,2026-11-08T22:40:18+00:00
+2,35.7,19.0,81.7,Soil moisture is moderate: continue monitoring.,2026-11-08T22:40:18+00:00
+1,29.6,34.2,62.4,Low soil moisture: assess crop needs and irrigation.,2026-11-08T22:40:16+00:00

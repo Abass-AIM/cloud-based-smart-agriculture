@@ -1,0 +1,31 @@
+flowchart TB
+    subgraph AWS["AWS CLOUD — Frankfurt"]
+        VPC["VPC 10.0.0.0/16"]
+        VPC --> PUB["Public subnet"]
+        VPC --> PRIV["Private subnet"]
+        IGW["Internet Gateway"] --> PUB
+        SG["Security Group"] -.-> PUB
+        S3["Private encrypted S3 bucket"]
+    end
+
+    subgraph LOCAL["LOCAL IMPLEMENTATION"]
+        USER["Web Browser"]
+        subgraph SWARM["Docker Swarm"]
+            SERVICE["Swarm Service<br/>1 replica · Port 5001"]
+            APP["Flask Application"]
+            SERVICE --> APP
+        end
+        USER --> SERVICE
+        APP --> API["REST API"]
+        APP --> DASH["Dashboard"]
+        API --> SIM["Simulated Sensor Generator"]
+        SIM --> LAMBDA["Local Lambda-compatible function"]
+        LAMBDA --> DB[("SQLite Database")]
+        API --> DB
+        API --> CSV["CSV Export"]
+        APP -. "Optional upload, not executed" .-> S3
+    end
+
+    FUTURE["Proposed AWS deployment<br/>EC2 · RDS · Lambda · Load Balancer · Auto Scaling"]
+    AWS -.-> FUTURE
+    FUTURE -.-> LOCAL

@@ -1,0 +1,11 @@
+
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+smart_agriculture.db
+.git/
+.env
+.vscode/
+.idea/

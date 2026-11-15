@@ -1,0 +1,30 @@
+
+File                                                    SizeBytes
+----                                                    ---------
+documentation\architecture.mmd                               1035
+documentation\aws-evidence\elastic-ips.json                    56
+documentation\aws-evidence\route-tables.json                 6608
+documentation\aws-evidence\s3-encryption.json                 894
+documentation\aws-evidence\s3-location.json                    98
+documentation\aws-evidence\s3-public-access.json              398
+documentation\aws-evidence\security-group.json               4496
+documentation\aws-evidence\subnets.json                      5198
+documentation\aws-evidence\vpc.json                          1902
+documentation\local-evidence\analysis-result.json             646
+documentation\local-evidence\dashboard.png                  85378
+documentation\local-evidence\docker-container.txt             590
+documentation\local-evidence\docker-inspect.json            16512
+documentation\local-evidence\docker-status.txt                590
+documentation\local-evidence\Dockerfile.txt                   316
+documentation\local-evidence\health-check.json                 56
+documentation\local-evidence\lambda-function-tests.json      1281
+documentation\local-evidence\sensor-history.json             7534
+documentation\local-evidence\sensor-readings.csv             2524
+documentation\local-evidence\swarm-health-check.json           56
+documentation\local-evidence\swarm-nodes.txt                  406
+documentation\local-evidence\swarm-service-inspect.json      6300
+documentation\local-evidence\swarm-services.txt               416
+documentation\local-evidence\swarm-tasks.txt                  584
+
+
+

@@ -1,0 +1,46 @@
+[
+    {
+        "test": "Low soil moisture",
+        "statusCode": 200,
+        "body": {
+            "soil_moisture": 20.0,
+            "temperature": 25.0,
+            "humidity": 55.0,
+            "recommendation": "Low soil moisture: assess crop needs and irrigation."
+        }
+    },
+    {
+        "test": "Moderate soil moisture",
+        "statusCode": 200,
+        "body": {
+            "soil_moisture": 38.0,
+            "temperature": 24.0,
+            "humidity": 60.0,
+            "recommendation": "Soil moisture is moderate: continue monitoring."
+        }
+    },
+    {
+        "test": "Adequate soil moisture",
+        "statusCode": 200,
+        "body": {
+            "soil_moisture": 71.0,
+            "temperature": 23.9,
+            "humidity": 58.1,
+            "recommendation": "Soil moisture is adequate under this simple rule."
+        }
+    },
+    {
+        "test": "Invalid soil moisture",
+        "statusCode": 400,
+        "body": {
+            "error": "Soil moisture must be between 0 and 100."
+        }
+    },
+    {
+        "test": "Missing humidity",
+        "statusCode": 400,
+        "body": {
+            "error": "Provide soil_moisture, temperature, and humidity as numeric values."
+        }
+    }
+]
